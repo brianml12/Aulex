@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.dark-theme {
+    background-color: #22668D;
+    color: #FFF7E7;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #FFF7E7;
+    transition: color 0.4s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #D69212;
+}
+
+
+.navbar-dark .navbar-nav .dropdown-item:hover {
+    color: #f0af38;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.light-theme {
+    color: #192833;
+    background-color: #FFF7E7;
+}
+
+.alternative {
+    color: lightyellow;
+    background-color: #ecb042;
+}
+
+.mapCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.estadoFondo{
+    background-image: url("../src/lugar-morelia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50rem;
+}
+
+.nombreEdo{
+    position: absolute;
+    color: white;
+    bottom: 150px;
+    left: 200px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.descEdo{
+    background-color: #22668D;
+    position: absolute;
+    color: white;
+    bottom: 120px;
+    left: 200px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.escudo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 100px;
+    left: 50px;
+}
+
+
+
+#menu a {
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.portada {
+    max-height: 45rem;
+}
+
+
+footer {
+    background-color: #22668D;
+    color: #FFF7E7;
+    min-height: 100px;
+}
+
+i {
+    font-size: 26px;
+    padding: 0 16px;
+    color: #FFF7E7;
+    /* TRANSICIÓN */
+    transition: color 0.4s;
+}
+
+i:hover {
+    color: #D69212;
+}
+
+body {
+    color: #192833;
+    background-color: white;
+}
+
+.accordion {
+    --bs-accordion-active-bg: #192833;
+    --bs-accordion-active-color: #FFF7E7;
+}
+
+.img-carrusel {
+    max-height: 30rem;
+}
+
+#mapa {
+    background-color: #FFF7E7;
+}
