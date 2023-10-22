@@ -2,7 +2,7 @@
    {
 	   "nombreEstado": "Michoacan",
       "descripcionEstado": "lugar de pescados o lugar de pescadores",
-      "escudoEstado": "/src/escudo-michoacan.svg",
+      "escudoEstado": "./src/escudo-michoacan.svg",
       "infoBasicaEstado": [
          {
             "nombreCompleto": "Michoacán de Ocampo",
@@ -18,7 +18,7 @@
       ],
       "mapaEstadoImg": [
          {
-            "srcEstadoImg": "/src/lugar-michoacan.png", 
+            "srcEstadoImg": "./src/lugar-michoacan.png", 
             "textoAltImg": "Mapa de michoacan"
          }
       ],
@@ -26,27 +26,27 @@
          {
             "punto_turistico_nombre": "Lago de patzcuaro",
             "punto_turistico_descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam quia quas provident laboriosam doloribus libero. <br> hola",
-            "punto_turistico_img": "/src/sample-picture-1.png"
+            "punto_turistico_img": "./src/sample-picture-1.png"
          },
          {
             "punto_turistico_nombre": "Lago de patzcuaro",
             "punto_turistico_descripcion": "Descripcion del lago de patzcuaro ejemplo de descripcion",
-            "punto_turistico_img": "/src/sample-picture-2.png"
+            "punto_turistico_img": "./src/sample-picture-2.png"
          },
          {
             "punto_turistico_nombre": "Lago de patzcuaro",
             "punto_turistico_descripcion": "Descripcion del lago de patzcuaro ejemplo de descripcion",
-            "punto_turistico_img": "/src/sample-picture-1.png"
+            "punto_turistico_img": "./src/sample-picture-1.png"
          },
          {
             "punto_turistico_nombre": "Lago de patzcuaro",
             "punto_turistico_descripcion": "Descripcion del lago de patzcuaro ejemplo de descripcion",
-            "punto_turistico_img": "/src/sample-picture-2.png"
+            "punto_turistico_img": "./src/sample-picture-2.png"
          },
          {
             "punto_turistico_nombre": "Lago de patzcuaro",
             "punto_turistico_descripcion": "Descripcion del lago de patzcuaro ejemplo de descripcion",
-            "punto_turistico_img": "/src/sample-picture-1.png"
+            "punto_turistico_img": "./src/sample-picture-1.png"
          }
       ]
    }
