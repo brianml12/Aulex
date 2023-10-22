@@ -39,27 +39,27 @@
     </nav>
     
     <header class="estadoFondo">    
-        <img class="escudo" src="src/escudo-michoacan.svg">
+        <img id="escudo_estado" class="escudo">
         <!-- <img src="./src/lugar-morelia.jpg" class="imgFondo d-block w-100" alt=""> -->
-        <h1 class="nombreEdo">MICHOACÁN</h1>
-        <figcaption class="descEdo">lugar de pescados o lugar de pescadores</figcaption>
+        <h1 id="nombre_estado" class="nombreEdo">nombre_estado</h1>
+        <figcaption id="descripcion_estado" class="descEdo">descripcion_estado</figcaption>
     </header>
     
     <section class="row w-75 mx-auto text-center pt-3 pb-5 mb-5">
         <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
             <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
                 <h1 class="py-3 fs-1">Información básica</h1><br>
-                <b>Nombre Completo:</b> Michoacán de Ocampo<br>
-                <b>Capital:</b> Morelia<br>
-                <b>Idiomas:</b> Español, Purépecha y Náhuatl<br>
-                <b>Subdivisiones:</b> 113 Municipios<br>
-                <b>Fundación:</b> 22 de diciembre de 1823<br>
-                <b>Superficie:</b> 58,598.7 Km^2<br>
-                <b>Población (2020):</b> 4,748,846 habitantes<br>
-                <b>Gentilicio:</b> Michoacano/na<br>
-                <b>Lema:</b> <cite>"Heredamos libertad, legaremos justicia social"</cite> <br>
+                <b>Nombre Completo: </b><label id="nombre_completo">nombre_completo</label><br>
+                <b>Capital: </b><label id="capital">capital</label><br>
+                <b>Idiomas: </b><label id="idiomas">idiomas</label><br>
+                <b>Subdivisiones: </b><label id="subdivisiones">subdivisiones</label><br>
+                <b>Fundación: </b><label id="fundacion">fundacion</label><br>
+                <b>Superficie: </b><label id="superficie">superficie</label><br>
+                <b>Población: </b><label id="poblacion">poblacion</label><br>
+                <b>Gentilicio: </b><label id="gentilicio">gentilicio</label><br>
+                <b>Lema: </b><cite id="lema">lema</cite> <br>
             </figcaption>
-            <img src="./src/lugar-michoacan.png" class="figure-img img-fluid rounded-4 mt-5" alt="..." width="500">
+            <img id="lugar_img" class="figure-img img-fluid rounded-4 mt-5" alt="Mapa del estado" width="500">
         </figure>
     </section>
 
@@ -67,79 +67,43 @@
         <h1 class="mb-5">Puntos Turísticos</h1>
         <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
             <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
-                <h3>Lugar #1</h3><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
-                enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
-                quia quas provident laboriosam doloribus libero. 
-                <br><br>
+                <h3 id="punto_turistico_nombre_1">Lugar #1</h3><br>
+                <p id="punto_turistico_descripcion_1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
+                    enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
+                    quia quas provident laboriosam doloribus libero. 
+                    <br><br>
 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
-                beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
-                est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
-                laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
-                qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
-                quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
+                    beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
+                    est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
+                    laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
+                    qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
+                    quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                </p>
             </figcaption>
-            <img src="./src/sample-picture-1.png" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
+            <img id="punto_turistico_img_1" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
         </figure>
     </section>
 
     <section class="row w-100 mx-auto text-center pt-3 pb-5 mb-5">
         <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
-            <img src="./src/sample-picture-2.png" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
+            <img id="punto_turistico_img_2" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
             <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
-                <h3>Lugar #2</h3><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
-                enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
-                quia quas provident laboriosam doloribus libero. 
-                <br><br>
+                <h3 id="punto_turistico_nombre_2">Lugar #2</h3><br>
+                <p id="punto_turistico_descripcion_2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
+                    enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
+                    quia quas provident laboriosam doloribus libero. 
+                    <br><br>
 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
-                beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
-                est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
-                laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
-                qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
-                quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
-            </figcaption>
-        </figure>
-    </section>
-
-    <section class="row w-100 mx-auto text-center pt-3 pb-5 mb-5">
-        <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
-            <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
-                <h3>Lugar #3</h3><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
-                enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
-                quia quas provident laboriosam doloribus libero. 
-                <br><br>
-
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
-                beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
-                est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
-                laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
-                qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
-                quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
-            </figcaption>
-            <img src="./src/sample-picture-1.png" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
-        </figure>
-    </section>
-
-    <section class="row w-100 mx-auto text-center pt-3 pb-5 mb-5">
-        <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
-            <img src="./src/sample-picture-2.png" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
-            <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
-                <h3>Lugar #4</h3><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
-                enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
-                quia quas provident laboriosam doloribus libero. 
-                <br><br>
-
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
-                beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
-                est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
-                laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
-                qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
-                quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
+                    beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
+                    est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
+                    laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
+                    qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
+                    quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                </p>
             </figcaption>
         </figure>
     </section>
@@ -147,20 +111,66 @@
     <section class="row w-100 mx-auto text-center pt-3 pb-5 mb-5">
         <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
             <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
-                <h3>Lugar #5</h3><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
-                enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
-                quia quas provident laboriosam doloribus libero. 
-                <br><br>
+                <h3 id="punto_turistico_nombre_3">Lugar #1</h3><br>
+                <p id="punto_turistico_descripcion_3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
+                    enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
+                    quia quas provident laboriosam doloribus libero. 
+                    <br><br>
 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
-                beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
-                est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
-                laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
-                qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
-                quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
+                    beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
+                    est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
+                    laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
+                    qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
+                    quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                </p>
             </figcaption>
-            <img src="./src/sample-picture-1.png" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
+            <img id="punto_turistico_img_3" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
+        </figure>
+    </section>
+
+    <section class="row w-100 mx-auto text-center pt-3 pb-5 mb-5">
+        <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
+            <img id="punto_turistico_img_4" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
+            <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
+                <h3 id="punto_turistico_nombre_4">Lugar #4</h3><br>
+                <p id="punto_turistico_descripcion_4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
+                    enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
+                    quia quas provident laboriosam doloribus libero. 
+                    <br><br>
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
+                    beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
+                    est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
+                    laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
+                    qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
+                    quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                </p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="row w-100 mx-auto text-center pt-3 pb-5 mb-5">
+        <figure class="figure d-flex align-items-center justify-content-center flex-wrap">
+            <figcaption class="figure-caption fs-5 w-50 mx-4 text-start">
+                <h3 id="punto_turistico_nombre_5">Lugar #5</h3><br>
+                <p id="punto_turistico_descripcion_5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad vel eaque dolor 
+                    enim debitis ab labore numquam a, fugiat id eveniet dignissimos porro, ipsam 
+                    quia quas provident laboriosam doloribus libero. 
+                    <br><br>
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit dolore 
+                    beatae reiciendis tempore eaque, cupiditate nesciunt doloribus maxime omnis 
+                    est consequuntur perspiciatis dolorem molestiae maiores velit dignissimos ducimus 
+                    laborum quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum 
+                    qui odio illo, nesciunt molestias consequatur nam eos aliquid earum aperiam quasi 
+                    quod voluptate culpa hic similique illum laboriosam exercitationem eaque.
+                </p>
+            </figcaption>
+            <img id="punto_turistico_img_5" class="figure-img img-fluid img-thumbnail rounded-4 mb-2" alt="..." width="350">
         </figure>
     </section>
 
@@ -173,6 +183,7 @@
         </div>
     </footer>
 
+    <script src="./js/cargarEstados.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
