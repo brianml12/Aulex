@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",()=>{
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://raw.githubusercontent.com/brianml12/Aulex/main/assets/estados.json", true);
+    xhr.open("GET", "./assets/estados.json", true);
     xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
         var data = JSON.parse(xhr.responseText);
