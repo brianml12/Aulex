@@ -36,7 +36,10 @@
         </div>
     </nav>
     
-    <img src="./src/lugar-acapulco.png" class="d-block w-100" alt="">
+    <div class="header">
+        <div id="bg"></div>
+        <!-- <img src="./src/lugar-acapulco.jpg" class="d-block w-100 fade-image" alt=""> -->
+    </div>
 
     <section class="row w-75 mx-auto pt-3 pb-5">
         <h1 class="p-3 fs-1">¿Qué es Aulex?</h1>
@@ -222,6 +225,15 @@
             });				
             $('.map').maphilight({ fade: true,strokeColor: '950054', fillColor: '950054', fillOpacity: 0.3 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
         });		           		
+    </script>
+
+    <script type="text/javascript">
+        var headerBg = document.getElementById('bg');
+        window.addEventListener('scroll', function(){
+            headerBg.style.opacity = 1 - +window.pageYOffset/1000+'';
+            headerBg.style.top = +window.pageYOffset+'px';
+            headerBg.style.backgroundPositionY = - +window.pageYOffset/2+'px';
+        });
     </script>
 </body>
 </html>
