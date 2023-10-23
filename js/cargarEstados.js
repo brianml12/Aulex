@@ -8,9 +8,10 @@ document.addEventListener("DOMContentLoaded",()=>{
             return estado.nombreEstado === 'Michoacan';
         });
         if(estadoEncontrado){
-            document.getElementById("escudo_estado").src = estadoEncontrado.escudoEstado;
-            document.getElementById("nombre_estado").textContent = estadoEncontrado.nombreEstado;
-            document.getElementById("descripcion_estado").textContent = estadoEncontrado.descripcionEstado;
+            //document.getElementById("escudo_estado").src = estadoEncontrado.escudoEstado;
+            document.getElementById("portadaEstado").src = estadoEncontrado.portadaEstado;
+            //document.getElementById("nombre_estado").textContent = estadoEncontrado.nombreEstado;
+            //document.getElementById("descripcion_estado").textContent = estadoEncontrado.descripcionEstado;
             //Mostrar la informacion basica
             document.getElementById("nombre_completo").textContent = estadoEncontrado.infoBasicaEstado[0].nombreCompleto;
             document.getElementById("capital").textContent = estadoEncontrado.infoBasicaEstado[0].capital;

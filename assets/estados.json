@@ -2,7 +2,8 @@
    {
 	   "nombreEstado": "Michoacan",
       "descripcionEstado": "lugar de pescados o lugar de pescadores",
-      "escudoEstado": "./src/escudo-michoacan.svg",
+      "escudoEstado": "./src/michoacan/escudo-michoacan.svg",
+      "portadaEstado": "./src/michoacan/portada-michoacan.png",
       "infoBasicaEstado": [
          {
             "nombreCompleto": "Michoacán de Ocampo",
@@ -18,7 +19,7 @@
       ],
       "mapaEstadoImg": [
          {
-            "srcEstadoImg": "./src/lugar-michoacan.png", 
+            "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
             "textoAltImg": "Mapa de michoacan"
          }
       ],
