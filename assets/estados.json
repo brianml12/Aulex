@@ -1,8 +1,6 @@
 [
    {
-	   "nombreEstado": "Michoacan",
-      "descripcionEstado": "lugar de pescados o lugar de pescadores",
-      "escudoEstado": "./src/michoacan/escudo-michoacan.svg",
+	   "nombreEstado": "Michoacán",
       "portadaEstado": "./src/michoacan/portada-michoacan.png",
       "infoBasicaEstado": [
          {

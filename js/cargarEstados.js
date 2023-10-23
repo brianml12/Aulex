@@ -5,13 +5,11 @@ document.addEventListener("DOMContentLoaded",()=>{
     if (xhr.readyState === 4 && xhr.status === 200) {
         var data = JSON.parse(xhr.responseText);
         var estadoEncontrado = data.find(function (estado) {
-            return estado.nombreEstado === 'Michoacan';
+            return estado.nombreEstado === 'Michoacán';
         });
         if(estadoEncontrado){
-            //document.getElementById("escudo_estado").src = estadoEncontrado.escudoEstado;
+            document.getElementById("titulo").innerHTML = estadoEncontrado.nombreEstado;
             document.getElementById("portadaEstado").src = estadoEncontrado.portadaEstado;
-            //document.getElementById("nombre_estado").textContent = estadoEncontrado.nombreEstado;
-            //document.getElementById("descripcion_estado").textContent = estadoEncontrado.descripcionEstado;
             //Mostrar la informacion basica
             document.getElementById("nombre_completo").textContent = estadoEncontrado.infoBasicaEstado[0].nombreCompleto;
             document.getElementById("capital").textContent = estadoEncontrado.infoBasicaEstado[0].capital;
