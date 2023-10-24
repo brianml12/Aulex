@@ -80,9 +80,6 @@ document.addEventListener("click", function (e) {
 });
 
 // Evita que el formulario se envíe al hacer clic en un resultado
-document.getElementById("search-form").addEventListener("submit", function (e) {
-    e.preventDefault();
-});
 
 function redirectToStatePage(stateName) {
     // Redirige a la página "state.html" con el estado como parámetro en la URL
