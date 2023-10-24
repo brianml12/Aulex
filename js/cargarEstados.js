@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     if (xhr.readyState === 4 && xhr.status === 200) {
         var data = JSON.parse(xhr.responseText);
         var estadoEncontrado = data.find(function (estado) {
-            return estado.nombreEstado === 'Michoacán';
+            return estado.abreviacionEstado === urlParams.get("estado");
         });
         if(estadoEncontrado){
             document.getElementById("titulo").innerHTML = estadoEncontrado.nombreEstado;

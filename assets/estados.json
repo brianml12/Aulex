@@ -1,5 +1,6 @@
 [
    {
+      "abreviacionEstado": "MICH",
 	   "nombreEstado": "Michoacán",
       "portadaEstado": "./src/michoacan/portada-michoacan.png",
       "infoBasicaEstado": [

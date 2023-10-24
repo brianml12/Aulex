@@ -104,9 +104,55 @@ function displayResults(results) {
             option.addEventListener("click", () => {
                 searchInput.value = result;
                 dropdown.style.display = "none";
-                redirectToStatePage(result); // Redirige al estado seleccionado
+                redirectToStatePage(getAbreviacionEstado(result)); // Redirige al estado seleccionado
             });
             dropdown.appendChild(option);
         });
     }
 }
+
+function getAbreviacionEstado(estado) {
+    // Se crea un arreglo de tupla en el cual se guarda en el estado y su abreviacion
+    let estadosMexico = {
+      "Aguascalientes": "AG",
+      "Baja California": "BC",
+      "Baja California Sur": "BCS",
+      "Campeche": "CAMP",
+      "Chiapas": "CHIS",
+      "Chihuahua": "CHIH",
+      "Coahuila": "COAH",
+      "Colima": "COL",
+      "Ciudad de México": "CDMX",
+      "Durango": "DGO",
+      "Guanajuato": "GTO",
+      "Guerrero": "GRO",
+      "Hidalgo": "HGO",
+      "Jalisco": "JAL",
+      "México": "MEX",
+      "Michoacán": "MICH",
+      "Morelos": "MOR",
+      "Nayarit": "NAY",
+      "Nuevo León": "NL",
+      "Oaxaca": "OAX",
+      "Puebla": "PUE",
+      "Querétaro": "QRO",
+      "Quintana Roo": "QR",
+      "San Luis Potosí": "SLP",
+      "Sinaloa": "SIN",
+      "Sonora": "SON",
+      "Tabasco": "TAB",
+      "Tamaulipas": "TAMPS",
+      "Tlaxcala": "TLAX",
+      "Veracruz": "VER",
+      "Yucatán": "YUC",
+      "Zacatecas": "ZAC"
+    };
+    // Se extrae  
+    let abreviacionEstado = estadosMexico[estado];
+    // Verificar si el estado existe en la estructura de datos
+    if (abreviacionEstado) {
+      return abreviacionEstado;
+    } else {
+      return "";
+    }
+  }
