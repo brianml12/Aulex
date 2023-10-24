@@ -83,3 +83,30 @@ document.addEventListener("click", function (e) {
 document.getElementById("search-form").addEventListener("submit", function (e) {
     e.preventDefault();
 });
+
+function redirectToStatePage(stateName) {
+    // Redirige a la página "state.html" con el estado como parámetro en la URL
+    location.href = `state.html?estado=${encodeURIComponent(stateName)}`;
+}
+
+// ...
+
+function displayResults(results) {
+    dropdown.innerHTML = "";
+    if (results.length === 0) {
+        dropdown.style.display = "none";
+    } else {
+        dropdown.style.display = "block";
+        results.forEach(result => {
+            const option = document.createElement("div");
+            option.className = "dropdown-option";
+            option.textContent = result;
+            option.addEventListener("click", () => {
+                searchInput.value = result;
+                dropdown.style.display = "none";
+                redirectToStatePage(result); // Redirige al estado seleccionado
+            });
+            dropdown.appendChild(option);
+        });
+    }
+}
