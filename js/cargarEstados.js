@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded",()=>{
+    var urlParams = new URLSearchParams(window.location.search);
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "./assets/estados.json", true);
     xhr.onreadystatechange = function () {
