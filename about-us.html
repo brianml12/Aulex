@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acerca de Nosotros</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos_busqueda.css">
+    </head>
+    <body>
+        <nav id="menu" class="navbar navbar-expand-lg p-1 sticky-top dark-theme navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <!--  <span>Stream Routes</span>   -->
+                    <img src="./src/logo-v3-aulex.png" alt="" title="Volver a la página de inicio" width="75">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Acerca de nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <img src="src/search.svg" class="searchIcon">
+                        <input class="form-control me-2" type="text" placeholder="Buscar estado" aria-label="Search"
+                            id="search-input" autocomplete="off">
+                    </form>
+                    <div id="results" class="dropdown"></div>
+                </div>
+            </div>
+        </nav>
+
+        <!--IMAGEN-->
+        <img src="./src/acerca-de-nosotros.png" class="d-block w-100 portada" alt="contactanos" data-aos="fade-right">
+
+        <!--CONTÁCTANOS-->
+        <section class="row w-75 mx-auto py-4">
+            <h3 class="p-3 fs-1 text-center">¿Quiénes somos?</h3>
+            <p class="fs-5 text-center my-2">
+                El equipo de desarrollo de Aulex está compuesto por seis jóvenes estudiantes interesados en el crecimiento turístico
+                en México, país del que nos sentimos firmemente orgullosos. Pertenecientes al TecNM Campus Sur de Guanajuato ¡Esperamos que disfrutes de una experiencia agradable
+                y cómoda!
+                <br><br>
+                <div class="d-flex align-items-center justify-content-center pb-4">
+                    <a href="https://www.instagram.com/" title="¡Paseate por nuestro Instagram!" target="_blank">
+                        <i class="about-us-icon bi bi-instagram"></i>
+                    </a>  
+                    <a href="#" title="¡Comunícate con nosotros!" target="_blank">
+                        <i class="about-us-icon bi bi-envelope-at"></i>
+                    </a>
+                    <a href="https://github.com/brianml12/Aulex/tree/main" title="Revisa el repositorio de Aulex" target="_blank">
+                        <i class="about-us-icon bi bi-github"></i>
+                    </a>
+                </div>
+
+                <p class="fs-5 text-center pt-4 pb-3">Herramientas de desarrollo y créditos al usuario <b>ferolz</b> por proporcionar el mapa interactivo de México</p>
+                <div class="d-flex align-items-center justify-content-center">
+                    <a title="HTML 5" target="_blank">
+                        <i class="about-us-icon bi"><img src="./src/html.png" alt="" width="30"></i>
+                    </a>  
+                    <a title="CSS 3" target="_blank">
+                        <i class="about-us-icon bi"><img src="./src/css.png" alt="" width="30"></i>
+                    </a>
+                    <a title="JavaScript" target="_blank">
+                        <i class="about-us-icon bi"><img src="./src/js.png" alt="" width="30"></i>
+                    </a>
+                    <a href="https://jquery.com" title="JQuery" target="_blank">
+                        <i class="about-us-icon bi"><img src="./src/jquery.png" alt="" width="30"></i>
+                    </a>  
+                    <a href="https://getbootstrap.com" title="Bootstrap" target="_blank">
+                        <i class="about-us-icon bi bi-bootstrap"></i>
+                    </a>
+                    <a href="https://github.com/ferolz/mapa-mexico-html5" title="Mapa interactivo de México por ferolz" target="_blank">
+                        <i class="about-us-icon bi bi-github"></i>
+                    </a>
+                </div>                
+
+            </p>
+        </section>
+
+
+        <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+            <img src="./src/logo-v3-aulex.png" alt="" width="75">
+            <p class="d-flex fs-5 align-items-center justify-content-center px-3 pt-3">© 2023 Copyright: Aulex</p>
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="https://www.instagram.com/" title="¡Paseate por nuestro Instagram!" target="_blank"><i class="bi bi-instagram"></i></a>  
+                <a href="#" title="¡Comunícate con nosotros!" target="_blank"><i class="bi bi-envelope-at"></i></a>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
