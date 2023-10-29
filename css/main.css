@@ -5,6 +5,11 @@
     color: #FFF7E7;
 }
 
+.mapCenter{
+    display: flex;
+    justify-content: center;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     text-decoration: none;
     color: #FFF7E7;
@@ -159,6 +164,7 @@ body {
     stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
+    
 }
 
 

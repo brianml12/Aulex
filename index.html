@@ -43,7 +43,7 @@
     
     <div class="header">
         <div id="bg"></div>
-        <!-- <img src="./src/lugar-acapulco.jpg" class="d-block w-100 fade-image" alt=""> -->
+        <img src="./src/lugar-acapulco-texto.png" class="d-block w-100 fade-image" alt="">
     </div>
 
     <section class="row w-75 mx-auto pt-3 pb-5">
@@ -228,6 +228,7 @@
                     data.alwaysOn = true;
                     $(this).data('maphilight', data).trigger('alwaysOn.maphilight');
                     last_selected_id_estado = $(this).data('id-estado');
+                    location.href = `state.html?estado=${getAbreviacionEstado(state_names[last_selected_id_estado])}`;
                     cargarEstado(last_selected_id_estado);
             });				
             $('.map').maphilight({ fade: true,strokeColor: '22668D', fillColor: '22668D', fillOpacity: 0.3 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        

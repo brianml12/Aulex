@@ -33,7 +33,7 @@
 .dropdown {
     position: absolute;
     top: 4rem;
-    left: 14.7rem;
+    left: 29rem;
     /* border: 1px solid #ccc; */
     background-color: #1d597c;
     border-radius: 5px;
@@ -69,6 +69,6 @@
 .searchIcon{
     position: absolute;
     top: 34px;
-    left: 27.5rem;
+    left: 42rem;
     filter: invert(1);
 }
