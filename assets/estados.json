@@ -49,5 +49,317 @@
             "punto_turistico_img": "./src/sample-picture-1.png"
          }
       ]
-   }
+   },
+   
+   {
+      "abreviacionEstado": "ZAC",
+      "nombreEstado": "Zacatecas",
+      "portadaEstado": "./src/zacatecas/portada-zacatecas.png",
+      "infoBasicaEstado": [
+         {
+            "nombreCompleto": "Zacatecas",
+            "capital": "Zacatecas",
+            "idiomas": "Español, Náhuatl, Huichol y Tepehuano",
+            "subdivisiones": "58 Municipios",
+            "fundacion": "23 de diciembre de 1823",
+            "superficie": "75,539.6 Km^2",
+            "poblacion": "(2020): 1,622,138 habitantes",
+            "gentilicio": "Zacatecano/na",
+            "lema": "Trabajo, Valor y Lealtad"
+         }
+      ],
+      "mapaEstadoImg": [
+         {
+            "srcEstadoImg": "./src/zacatecas/lugar-zacatecas.png", 
+            "textoAltImg": "Mapa de Zacatecas"
+         }
+      ],
+      "puntosTuristicosEstado": [
+         {
+            "punto_turistico_nombre": "Mina el Edén",
+            "punto_turistico_descripcion": "En una de las ciudades cuya historia gira en torno a la actividad minera, no puedes dejar de visitar las cuevas y el museo. En el Edén podrás atravesar los túneles, recorrer el socavón La Esperanza y el de El Grillo, además de conocer rocas y minerales de todas partes del mundo.",
+            "punto_turistico_img": "./src/zacatecas/lugar-1.jpg"
+         },
+         {
+            "punto_turistico_nombre": "Santuario de la Virgen de Guadalupe",
+            "punto_turistico_descripcion": "Santuario de la Virgen de Guadalupe, del siglo XVII; guarda en su altar principal un óleo de la virgen. Funcionó como hospital de indios y fue fundada por los Franciscanos. Es una de las joyas arquitectónicas de Teúl. ",
+            "punto_turistico_img": "./src/zacatecas/lugar-2.jpg"
+         },
+         {
+            "punto_turistico_nombre": "Presa La Ticuata (Manuel Caloca)",
+            "punto_turistico_descripcion": "Déjate maravillar por los paisajes acuáticos de esta presa. Aquí, además de admirar la panorámica, es posible nadar entre abril y septiembre, pescar lobina o andar en kayak. También se puede pasear en trajinera, si así lo decides.",
+            "punto_turistico_img": "./src/zacatecas/lugar-3.jpg"
+         },
+         {
+            "punto_turistico_nombre": "Sierra de Órganos",
+            "punto_turistico_descripcion": "Ubicado a 30 km, es un Parque Nacional compuesto por miles de columnas de piedra. El fascinante paisaje sirvió de escenario a varias películas de vaqueros en los años sesenta del siglo pasado. Entre las formaciones rocosas habitan pinos piñoneros, cedros, huizaches y sabinos. Águilas y gatos monteses, serpientes, cactus y nopaleras se esconden, saltan o crecen entre el laberinto de rocas. Cada seis meses se organizan carreras nocturnas.",
+            "punto_turistico_img": "./src/zacatecas/lugar-4.jpg"
+         },
+         {
+            "punto_turistico_nombre": "Centro Platero Artesanal de Zacatecas",
+            "punto_turistico_descripcion": "Ubicado en el casco de la Ex Hacienda de Bernardez, este lugar es el ideal para conocer de primera mano el trabajo de los artesanos joyeros zacatecanos. Aquí podrás admirar a los artesanos trabajando la plata en sus diferentes procesos como diseño, modelado, inyección de cera, fundición armado y pulido. Visita este lugar y adquiere platería cien por ciento zacatecana.",
+            "punto_turistico_img": "./src/zacatecas/lugar-5.jpg"
+         }
+      ]
+   },
+
+   {
+         "abreviacionEstado": "YUC",
+         "nombreEstado": "Yucatán",
+         "portadaEstado": "./src/yucatan/portada-yucatan.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Yucatán",
+               "capital": "Mérida",
+               "idiomas": "Español y Maya Yucateco",
+               "subdivisiones": "106 Municipios",
+               "fundacion": "23 de diciembre de 1823",
+               "superficie": "39,612 Km^2",
+               "poblacion": "(2020): 2,320,898 habitantes",
+               "gentilicio": "Yucateco/ca",
+               "lema": "El trabajo todo lo vence"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/yucatan/lugar-yucatan.png", 
+               "textoAltImg": "Mapa de Yucatán"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Zona arqueológica de Oxkintok",
+               "punto_turistico_descripcion": "ubicada a 70 km de Mérida, resguarda las ruinas de la que muchos consideran como la ciudad más antigua de la región Puuc central. Gracias a su situación geográfica, esta ciudad maya controló el flujo de bienes comerciales procedentes del sur de la península y estableció conexiones con otras culturas contemporáneas. Se trata también de una de las ciudades más longevas en la historia de la civilización maya, se cree que estuvo habitada desde el 300 a. C. (Preclásico superior) hasta aproximadamente 1200 d. C. (Posclásico temprano).",
+               "punto_turistico_img": "./src/yucatan/lugar-1.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Museo del Meteorito",
+               "punto_turistico_descripcion": "El museo ofrece una experiencia interactiva donde podrás diseñar tus propios dinosaurios y acercarte a ese mundo a través de mappings, realidad aumentada, tabletas digitales, figuras con sonido y movimientos robóticos y piedras de hasta 4500 millones de años que fueron traídas del Polo Norte y Australia. Toca todo tipo de especies de dinosaurios como el tiranosaurio, espinosaurio, dilofosaurio, triceraptor y triceratop. Además, interactúa con ejemplares originales de las rocas más antiguas de las que se tienen registro y evidencia fósil de las cuatro primeras extinciones del planeta, además de explorar la vida del período cretácico, que es el que cursaba cuando cayó el meteorito en la actual zona de Chicxulub en Yucatán",
+               "punto_turistico_img": "./src/yucatan/lugar-2.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Chicén-Itzá",
+               "punto_turistico_descripcion": "Chichén-Itzá, una de las nuevas siete maravillas del mundo, es uno de los yacimientos arqueológicos más visitados y emblemáticos de México. Este impresionante recinto maya, conocido por su pirámide central principal, que fue el centro ceremonial del Yucatán, también cuenta con templos, canchas de pelota y un cenote (sumidero de agua dulce).",
+               "punto_turistico_img": "./src/yucatan/lugar-3.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Pirámide de Kinich Kak Moo en Izamal",
+               "punto_turistico_descripcion": "Esta pirámide constituye la tercera edificación prehispánica más alta del país; superada solo por la Pirámide del Sol en Teotihuacan, Estado de México y la Pirámide de Cholula en Puebla. La pirámide de Kinich Kak Moo se ubica al norte de la plaza principal de la ciudad de Izamal. Se concluyó quem debido a su dimensión de 700 mil metros cúbicos y por el conjunto arquitectónico que acompaña a esta pirámide, fue asiento de una de las entidades mayas de mayor importancia de Yucatán. Su construcción se realizó entre los años 400 y 700 d.C., durante el período clásico maya. ",
+               "punto_turistico_img": "./src/yucatan/lugar-4.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Museo de las Momias de Santa Elena",
+               "punto_turistico_descripcion": "El Museo de las Momias de Santa Elena es uno de los lugares más fascinantes que puedes visitar en el sur de Yucatán. El lugar resguarda una serie de cuerpos momificados que fueron encontrados bajo la iglesia de San Mateo mientras se realizaban remodelaciones al edificio.",
+               "punto_turistico_img": "./src/yucatan/lugar-5.jpg"
+            }
+         ]
+      },
+
+      {
+         "abreviacionEstado": "AG",
+         "nombreEstado": "Aguascalientes",
+         "portadaEstado": "./src/aguascalientes/portada-aguascalientes.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Aguascalientes",
+               "capital": "Aguascalientes",
+               "idiomas": "Español, Náhuatl, Mazahua y Otomí",
+               "subdivisiones": "11 Municipios",
+               "fundacion": "5 de febrero de 1857",
+               "superficie": "5,618.7 Km^2",
+               "poblacion": "(2020): 1,425,525 habitantes",
+               "gentilicio": "Aguascalentense",
+               "lema": "Bona Terra, Bona Gens, Aqua Clara, Clarum Caelum"
+            }            
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/aguascalientes/lugar-aguascalientes.png", 
+               "textoAltImg": "Mapa de Aguascalientes"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Santuario de Guadalupe",
+               "punto_turistico_descripcion": "Su fachada de cantera rosa enmarca la figura de la Virgen de Guadalupe plasmada sobre la puerta y el ventanal coral. Fue construido en 1765 por órdenes del Padre Tadeo Bueno de Bessori. En su interior hay pinturas del artista Teodoro Ramírez acerca de los doce apóstoles y Jesús. Tiene un interesante cementerio anexo dotado de diferentes niveles y algunos nichos para mantener las jerarquías sociales y eclesiásticas aun después de la “raya”.",
+               "punto_turistico_img": "./src/aguascalientes/lugar-1.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Isla de San Marcos",
+               "punto_turistico_descripcion": "Cuenta con 44 de hectáreas en las que puedes realizar diferentes actividades al aire libre y en familia o con amigos, ya sea que recorras el lago artificial o disfrutes de las carreras de caballos de cuarto de milla, también cuenta con el reloj mecánico y la montaña rusa más grande de Latinoamérica.",
+               "punto_turistico_img": "./src/aguascalientes/lugar-2.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Plaza de las Tres Centurias",
+               "punto_turistico_descripcion": "En este parque podrás conocer más sobre la historia del ferrocarril, en su interior puedes visitar el Jardín de la Estación, ideal para pasear por las tardes y escuchar música de banda; La Hidrocálida, una hermosa locomotora; y la Fuente de Aguas Danzarinas, la más grande de Latinoamérica ya que reproduce hasta 60 colores diferentes.",
+               "punto_turistico_img": "./src/aguascalientes/lugar-3.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Museo Nacional de la Muerte",
+               "punto_turistico_descripcion": "A través de diez salas podrás apreciar la colección iconográfica de la muerte así como la obra del grabador Octavio Bajonero Gil, quien hizo una donación de su colección personal. También cuenta con una galería exterior en la que se muestran exposiciones temporales de fotografías en gran formato.",
+               "punto_turistico_img": "./src/aguascalientes/lugar-4.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Catedral Basílica de Nuestra Señora de la Asunción",
+               "punto_turistico_descripcion": "Erigida en 1575, es uno de los templos más antiguos de la ciudad. Cuenta con varias etapas de construcción, en ella destaca la entrada de cantera al estilo barroco; en el interior se encuentra la pintura de San Juan Nepomuceno y en la nave central podrás encontrar un órgano tubular de madera y un ciprés de mármol blanco donde se encuentra la imagen de la Virgen de la Asunción. Sus muros alojan pinturas de artistas como Miguel Cabrera, Juan Correa, José de Alcíbar y Andrés López.",
+               "punto_turistico_img": "./src/aguascalientes/lugar-5.jpg"
+            }
+         ]
+      },
+
+      {
+         "abreviacionEstado": "CAMP",
+         "nombreEstado": "Campeche",
+         "portadaEstado": "./src/campeche/portada-campeche.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Campeche",
+               "capital": "San Francisco de Campeche",
+               "idiomas": "Español y Maya",
+               "subdivisiones": "11 Municipios",
+               "fundacion": "4 de agosto de 1857",
+               "superficie": "57,924.8 Km^2",
+               "poblacion": "(2020): 928,363 habitantes",
+               "gentilicio": "Campechano/na",
+               "lema": "Trabajo, Cultura y Progreso"
+            }              
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/campeche/lugar-campeche.png", 
+               "textoAltImg": "Mapa de Campeche"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Malecón de Campeche",
+               "punto_turistico_descripcion": "El mar es la razón de ser de San Francisco de Campeche. Sobre sus olas arribaron sus fundadores; a través de él llegaron sus principales amenazas, pero también fue la vía de entrada de las mercancías y tradiciones que darían riqueza a la ciudad. Hoy, el mar sigue siendo motivo e inspiración para los campechanos, quienes han trazado a lo largo de la costa del Golfo de México la avenida Adolfo Ruiz Cortines. A la par de esta vía discurre uno de los paseos favoritos de locales y foráneos, el cual, por su belleza y ubicación, resulta idóneo para comenzar la exploración del centro histórico de Campeche",
+               "punto_turistico_img": "./src/campeche/lugar-1.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Zona Arqueológica de Edzná",
+               "punto_turistico_descripcion": "Localizada a 55 km al este de la ciudad, Edzná fue conocida como una de las capitales regionales más poderosas de la península entre los años 400 y 1000 d. C. debido a su fuerza política y económica. Aquí encontrarás distintos estilos arquitectónicos, construidos a lo largo de 15 siglos, tal como Chenes, Puuc y Tardíos.",
+               "punto_turistico_img": "./src/campeche/lugar-2.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Parque Natural Petenes-Ría Celestún",
+               "punto_turistico_descripcion": "Es considerada una de las reservas con la mayor riqueza de especies. Cuenta con 300 tipos de aves. Un viaje a este lugar te permitirá observar aves como carpinteros, colibríes, motmots, fragatas, garzas y flamencos rosados. Un paseo en lancha te acercará a manglares, dunas, petenes, selva baja y pastizales.",
+               "punto_turistico_img": "./src/campeche/lugar-3.jpeg"
+            },
+            {
+               "punto_turistico_nombre": "Grutas de Xtacumbilxunaan",
+               "punto_turistico_descripcion": "Su nombre significa “lugar de la mujer escondida” y fue un lugar sagrado para las mayas, Aquí podrás apreciar formaciones de estalagmitas y estalactitas a través de 200 metros. También cuenta con “El balcón de la bruja”, en donde se observa la formación de una bóveda con una agujero por donde entra un haz de luz.",
+               "punto_turistico_img": "./src/campeche/lugar-4.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Sitio Arqueológico El Tigre",
+               "punto_turistico_descripcion": "El sitio arqueológico El Tigre es uno de los atractivos que debes visitar en el Pueblo Mágico Candelaria, en Campeche. Es un sitio que muy pocos han visitado. Desde los tiempos de la Conquista este sitio era conocido como Itzamkanac; puerto fluvial de gran importancia y ruta natural entre el Petén y la costa campechana. El Tigre se extiende sobre un conjunto de lomas al margen del Río Candelaria, en una superficie aproximada de cinco kilómetros cuadrados. El Centro Ceremonial se compone de cuatro grandes estructuras y seis de menores dimensiones. También cuenta con dos plazas, 13 altares y tres estelas lisas.",
+               "punto_turistico_img": "./src/campeche/lugar-5.jpg"
+            }
+         ]
+      },
+
+      {
+         "abreviacionEstado": "ESTMX",
+         "nombreEstado": "Estado de México",
+         "portadaEstado": "./src/estado-de-mexico/portada-estado-de-mexico.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado de México",
+               "capital": "Toluca de Lerdo",
+               "idiomas": "Español, Náhuatl, Mazahua y Otomí",
+               "subdivisiones": "125 Municipios",
+               "fundacion": "2 de marzo de 1824",
+               "superficie": "22,357.6 Km^2",
+               "poblacion": "(2020): 16,992,418 habitantes",
+               "gentilicio": "Mexiquense",
+               "lema": "Libertad, Trabajo, Cultura"
+            }                        
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/estado-de-mexico/lugar-estado-de-mexico.png", 
+               "textoAltImg": "Mapa de Estado de México"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Jardín Botánico Cosmovitral",
+               "punto_turistico_descripcion": "No hay mejor comienzo por esta ciudad que visitar el Cosmovitral Jardín Botánico construido en lo que a mediados del siglo pasado fuera el Mercado 16 de Septiembre, un emblemático edificio art nouveau. El monumental vitral que resplandece en su interior es obra de Leopoldo Flores, destacado artista mexiquense que necesitó la ayuda de decenas de artesanos y herreros para culminar la obra.",
+               "punto_turistico_img": "./src/estado-de-mexico/lugar-1.jpeg"
+            },
+            {
+               "punto_turistico_nombre": "Teotihuacán",
+               "punto_turistico_descripcion": "Patrimonio de la Humanidad por la UNESCO desde 1987 y es la más visitada en México durante todo el año. Visitado por miles de personas nacionales y extranjeras se dan cita durante el Equinoccio de Primavera para recargarse de energía. Para la mitología náhuatl, el lugar donde se crearon el sol y la luna. Alrededor de lo que fue una de las mayores ciudades prehispánicas de Mesoamérica, estos dos Pueblos Mágicos combinan una cultura antigua y colonial. La comida se fusiona entre lo prehispánico y español, el repicar de las campanas se mezcla con el sonido del huéhuetl. La historia antigua invita a descubrir la vida de estos dos pueblos. ",
+               "punto_turistico_img": "./src/estado-de-mexico/lugar-2.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Valle de Bravo",
+               "punto_turistico_descripcion": "Pareciera que la misión de Valle de Bravo fuera ponerte en contacto con los elementos naturales más primitivos. Su lago, como centro de vida, atrae por su inmensidad y belleza. El aire despierta el espíritu aventurero, de aquí son los mejores veleristas del país y se disfruta enormemente volar en parapente o ala delta para conocerlo todo desde arriba. La tierra es pródiga en belleza, con paisajes montañosos que quitan el aliento y verde por doquier. Y por último, el fuego que adormece los espíritus en chimeneas, fogatas y temazcales invita a renacer una y otra vez.",
+               "punto_turistico_img": "./src/estado-de-mexico/lugar-3.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Centro Ceremonial Otomí",
+               "punto_turistico_descripcion": "El Centro Ceremonial Otomí es un recinto que funciona como parque, monumento y centro ceremonial a la vez. Impresionantes esculturas y espacios grandiosos que se funden con la naturaleza le dan a este lugar un atractivo muy especial. A la entrada del complejo hay una escultura del Jefe B’otzanga, un guerrero otomí quien supuestamente peleó contra Axayácatl, soberano de los mexicas. En la Plaza del Coloso verás también una figura monumental de Tahay, el mensajero del tiempo y el espacio en la cultura otomí. El Mural Dámishy muestra la imagen de un jaguar estilizado.",
+               "punto_turistico_img": "./src/estado-de-mexico/lugar-4.jpeg"
+            },
+            {
+               "punto_turistico_nombre": "Santuario de la mariposa Monarca La Mesa",
+               "punto_turistico_descripcion": "Entre octubre y marzo las mariposas Monarca arriban a este bosque para aparearse dando un increíble espectáculo natural. Sé testigo de este acontecimiento visitando el Santuario La Mesa. Además, el ejido donde posee un parador turístico con cabañas y donde podrás realizar actividades como senderismo y bicicleta de montaña.",
+               "punto_turistico_img": "./src/estado-de-mexico/lugar-5.jpg"
+            }
+         ]
+      },
+
+      {
+         "abreviacionEstado": "QR",
+         "nombreEstado": "Quintana Roo",
+         "portadaEstado": "./src/quintana-roo/portada-quintana-roo.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Quintana Roo",
+               "capital": "Chetumal",
+               "idiomas": "Español y Maya",
+               "subdivisiones": "11 Municipios",
+               "fundacion": "24 de octubre de 1974",
+               "superficie": "50,212.8 Km^2",
+               "poblacion": "(2020): 1,857,985 habitantes",
+               "gentilicio": "Quintanarroense",
+               "lema": "La Fuerza de la Gente"
+            }                                     
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/quintana-roo/lugar-quintana-roo.png", 
+               "textoAltImg": "Mapa de Quintana Roo"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Cancún",
+               "punto_turistico_descripcion": "Este destino playero es la principal puerta de entrada a los secretos del Mundo Maya y a las maravillas naturales del Mar Caribe. Aguas azul turquesa, vestigios prehispánicos, diversión nocturna y emocionantes parques ecoturísticos son parte de los atractivos que te esperan en Cancún. En Cancún encontrarás la mejor oferta turística; desde lujosos hoteles, con spas y campos de golf que miran al mar o a la misteriosa Laguna de Nichupté, hasta numerosos restaurantes y discotecas, famosos por la calidad de su gastronomía o de sus espectáculos.",
+               "punto_turistico_img": "./src/quintana-roo/lugar-1.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Holbox",
+               "punto_turistico_descripcion": "Tierra costera del norte de Quintana Roo es parte del “Área de Protección de Flora y Fauna Silvestre y Acuática Yum Balam”. Actualmente la isla es uno de los destinos turísticos más interesantes de la región por sus actividades de ecoturismo, sus paisajes de ensueño y el avistamiento del pez más grande del mundo:  el tiburón ballena que se alimenta en aguas cercanas, entre mayo y septiembre.",
+               "punto_turistico_img": "./src/quintana-roo/lugar-2.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Tulum",
+               "punto_turistico_descripcion": "En el punto más al sur de la Riviera Maya se sitúa Tulum, un pueblo místico y acogedor, de calles llenas de terrazas, de tiendas de artesanías y bares. Con gente que va y viene en bici. Su playa comparte las historias de los navegantes mayas. A la lejanía, se alza El Castillo, desde donde se mira mejor el Caribe y donde en primavera se reciben los primeros rayos de sol sobre la puerta de salida de este edificio.",
+               "punto_turistico_img": "./src/quintana-roo/lugar-3.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Playa del Carmen ",
+               "punto_turistico_descripcion": "Playa del Carmen está el corazón de la Riviera Maya (a 60 km de Cancún), en el estado de Quintana Roo. Un bello destino que hoy en día es una de las playas más famosas de la República Mexicana. Lo que hace apenas unos años era una pequeña villa habitada por pescadores y el principal puerto de partida a la isla de Cozumel, hoy es un paraíso cosmopolita que atrae a miles de extranjeros de todas las nacionalidades. En Playa del Carmen, conviven dos mundos. Por un lado, el ambiente pueblerino que se respira de una aldea dedicada a la pesca; y por otro, la mezcla cultural y social que generación tras generación ha dado vida a un centro de moda conformado por una arquitectura y gastronomía eclécticas.",
+               "punto_turistico_img": "./src/quintana-roo/lugar-4.jpg"
+            },
+            {
+               "punto_turistico_nombre": "Riviera Maya",
+               "punto_turistico_descripcion": "La riqueza natural, histórica y cultural de la Riviera Maya la convierten en un lugar único en el mundo. Los más de 100 km que la conforman, desde Puerto Morelos hasta Punta Allen, se componen por paraísos de arena blanca y aguas turquesas, propios del Mar Caribe. Magníficas zonas arqueológicas mayas, tranquilas playas de cielos azules y un sinnúmero de actividades ecológicas te esperan en esta franja turística. La Riviera Maya ha dotado de fama internacional a Quintana Roo. Este destino sobresale por la diversidad de opciones de viaje que ofrece, para todos los gustos y presupuestos. Aquí puedes encontrar ofertas de hoteles, restaurantes y discotecas exclusivas, o parajes semivírgenes y emocionantes deportes acuáticos, que podrás disfrutar todo el año.",
+               "punto_turistico_img": "./src/quintana-roo/lugar-5.jpg"
+            }
+         ]
+      }
 ]
