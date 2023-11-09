@@ -50,7 +50,7 @@ function getResults(query) {
         "Yucatán",
         "Zacatecas"
       ];
-    return simulatedResults.filter(result => result.toLowerCase().includes(query.toLowerCase()));
+    return simulatedResults.filter(result => result.toUpperCase().startsWith(query.toUpperCase()));
 }
 
 function displayResults(results) {

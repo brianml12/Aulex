@@ -361,5 +361,261 @@
                "punto_turistico_img": "./src/quintana-roo/lugar-5.jpg"
             }
          ]
+      },
+
+      {
+         "abreviacionEstado": "VER",
+         "nombreEstado": "Veracruz",
+         "portadaEstado": "./src/michoacan/portada-michoacan.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Veracruz de Ignacio de la Llave",
+               "capital": "Xalapa",
+               "idiomas": "Español, Náhuatl, Totonaca, Zapoteco, Mixteco, Popoluca, Huasteco, entre otros.",
+               "subdivisiones": "212 Municipios",
+               "fundacion": "22 de abril de 1519",
+               "superficie": "72,815 Km^2",
+               "poblacion": "(2022): 8 millones de habitantes.",
+               "gentilicio": "Veracruzano/na",
+               "lema": "Veracruz, florece para todos."
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
+               "textoAltImg": "Mapa de michoacan"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Puerto de Veracruz",
+               "punto_turistico_descripcion": "La ciudad de Veracruz es un importante puerto en México y ofrece una combinación de historia y belleza costera. Puedes visitar el Zócalo (plaza central), el fuerte de San Juan de Ulúa, la Catedral de Veracruz y disfrutar de la comida regional en los restaurantes a lo largo del Malecón.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Xalapa",
+               "punto_turistico_descripcion": "La capital del estado, Xalapa, es conocida por su hermoso entorno montañoso y su rica vida cultural. Puedes visitar el Museo de Antropología de Xalapa (MAX), el Museo Interactivo de Xalapa (MIX), y explorar los hermosos jardines y parques de la ciudad.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Tlacotalpan",
+               "punto_turistico_descripcion": "Este pueblo mágico es famoso por su arquitectura colonial y su ambiente tranquilo a lo largo del río Papaloapan. Tlacotalpan es conocido por sus casas de colores pastel y es un lugar perfecto para explorar a pie o en bicicleta.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Córdoba",
+               "punto_turistico_descripcion": "Córdoba es una ciudad con una rica historia cafetalera. Puedes visitar el Museo del Café, la Catedral de la Inmaculada Concepción y el Parque 21 de Mayo. Además, los alrededores de Córdoba son ideales para visitar plantaciones de café.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "La Antigua",
+               "punto_turistico_descripcion": " ste pequeño pueblo histórico fue el primer lugar donde los españoles desembarcaron en México. Puedes visitar la casa de Hernán Cortés, la iglesia de San Martín, y disfrutar de la tranquilidad de la costa del Golfo de México.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "COAH",
+         "nombreEstado": "Coahuila",
+         "portadaEstado": "./src/michoacan/portada-michoacan.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Coahuila de Zaragoza",
+               "capital": "Saltillo",
+               "idiomas": "Español, Náhuatl , Kikapú y Coahuilteco",
+               "subdivisiones": "38 Municipios",
+               "fundacion": "28 de enero de 1824",
+               "superficie": " 151,563 Km^2",
+               "poblacion": "(2022): 2.9 millones de habitantes",
+               "gentilicio": "coahuilense",
+               "lema": "Coahuila, unido por la historia, forjando el futuro"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
+               "textoAltImg": "Mapa de michoacan"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Saltillo",
+               "punto_turistico_descripcion": "La capital del estado, Saltillo, es conocida por su arquitectura colonial y su ambiente acogedor. Puedes visitar el Museo del Desierto, la Catedral de Santiago y el Museo de las Aves de México. Además, la ciudad es famosa por su gastronomía, incluyendo la carne asada y las gorditas de horno.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Parras de la Fuente",
+               "punto_turistico_descripcion": "Este pintoresco pueblo mágico es famoso por su producción de vino y cuenta con varias bodegas que puedes visitar. También puedes explorar la Hacienda de San Lorenzo, la Iglesia de Santo Madero y disfrutar de un agradable ambiente colonial.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Zona Desierto de Coahuila",
+               "punto_turistico_descripcion": "En el norte de Coahuila, puedes explorar el impresionante Desierto de Coahuila. El Parque Nacional Maderas del Carmen ofrece oportunidades para practicar senderismo y disfrutar de la naturaleza en un entorno desértico único.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Cuatro Ciénegas",
+               "punto_turistico_descripcion": "Este es un lugar de belleza natural única en el desierto de Coahuila. Cuatro Ciénegas cuenta con numerosas pozas termales, manantiales y lagunas de aguas cristalinas. Puedes explorar la Poza Azul, las Dunas de Yeso y otros sitios naturales.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Monclova",
+               "punto_turistico_descripcion": "Monclova es una ciudad industrial en Coahuila que también ofrece atractivos turísticos. Puedes visitar el Museo del Acero Horno3, la Plaza de las Culturas y la Casa de la Fundación de Monclova, que es un importante sitio histórico.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "SLP",
+         "nombreEstado": "San Luis Potosí",
+         "portadaEstado": "./src/michoacan/portada-michoacan.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado Libre y Soberano de San Luis Potosí",
+               "capital": "San Luis",
+               "idiomas": "Español, Huasteco, Pima y Náhuatl",
+               "subdivisiones": "58 Municipios",
+               "fundacion": "3 de noviembre de 1592",
+               "superficie": "63,068 Km^2",
+               "poblacion": "(2022): 2.8 millones de habitantes",
+               "gentilicio": "Potosino/na",
+               "lema": "Ciudadanos por naturaleza, rebeldes por instinto"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
+               "textoAltImg": "Mapa de michoacan"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "San Luis Potosí (ciudad)",
+               "punto_turistico_descripcion": "La capital del estado, San Luis Potosí, es una ciudad con una rica historia colonial. Puedes visitar la Catedral de San Luis Potosí, el Palacio de Gobierno, la Plaza de Aranzazú y explorar el centro histórico.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Real de Catorce",
+               "punto_turistico_descripcion": "Este antiguo pueblo minero enclavado en la Sierra de Catorce es famoso por su ambiente pintoresco y su arquitectura colonial. También es conocido por ser un lugar de peregrinación para los creyentes en el culto a la Santa Muerte.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Xilitla",
+               "punto_turistico_descripcion": "Xilitla es conocida por su impresionante Jardín Surrealista de Edward James, una creación artística con esculturas y estructuras surrealistas en medio de la selva tropical. También puedes explorar las cascadas y cuevas en la región.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Huasteca Potosina",
+               "punto_turistico_descripcion": "La región de la Huasteca Potosina es conocida por su belleza natural, incluyendo cascadas como Tamul, Puente de Dios y Minas Viejas. Es un destino popular para los amantes del ecoturismo y las actividades al aire libre.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Peña de Bernal",
+               "punto_turistico_descripcion": "Aunque esta formación rocosa espectacular se encuentra justo al otro lado de la frontera en el estado de Querétaro, es un destino popular para los visitantes de San Luis Potosí. La Peña de Bernal es una de las estructuras monolíticas más grandes del mundo y es un lugar ideal para practicar senderismo y disfrutar de las vistas panorámicas.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "SON",
+         "nombreEstado": "Sonora",
+         "portadaEstado": "./src/michoacan/portada-michoacan.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado Libre y Soberano de Sonora",
+               "capital": "Hermosillo",
+               "idiomas": "Español, Mayo, Guarijío y Pima",
+               "subdivisiones": "72 Municipios",
+               "fundacion": "13 de octubre de 1830",
+               "superficie": "179,355 Km^2",
+               "poblacion": "(2020): 2.9 millones de habitantes",
+               "gentilicio": "Sonorense",
+               "lema": "Trabajo y Justicia Social"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
+               "textoAltImg": "Mapa de michoacan"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "San Carlos",
+               "punto_turistico_descripcion": "Ubicada en la costa del Golfo de California, San Carlos es famosa por sus hermosas playas y actividades acuáticas. Los visitantes pueden disfrutar del buceo, el kayak, la pesca deportiva y relajarse en las playas de arena.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Hermosillo",
+               "punto_turistico_descripcion": "La capital de Sonora, Hermosillo, es una ciudad moderna con una rica herencia cultural. Puedes visitar el Centro Histórico, el Museo de Culturas Populares e Indígenas de Sonora y disfrutar de la gastronomía regional, como el asado sonorense.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Reserva de la Biósfera El Pinacate y Gran Desierto de Altar",
+               "punto_turistico_descripcion": "Este es un sitio declarado Patrimonio de la Humanidad por la UNESCO. La zona ofrece una geología impresionante, cráteres volcánicos, paisajes desérticos y una gran biodiversidad.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Cerro de la Campana",
+               "punto_turistico_descripcion": "Esta montaña en la ciudad de Hermosillo es un destino popular para el senderismo. Desde la cima, puedes disfrutar de vistas panorámicas de la ciudad y sus alrededores.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Álamos",
+               "punto_turistico_descripcion": "Álamos es un encantador pueblo mágico en Sonora, conocido por su arquitectura colonial, calles empedradas y casas de colores. Puedes visitar la Plaza de Armas, la Iglesia de la Purísima Concepción y disfrutar de la atmósfera tranquila del lugar.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "PUE",
+         "nombreEstado": "Puebla",
+         "portadaEstado": "./src/michoacan/portada-michoacan.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Heroica Puebla de Zaragoza",
+               "capital": "Puebla de Zaragoza",
+               "idiomas": "Español, Náhuatl, Mixteco, Popoloca, Tlapaneco y entre otros.",
+               "subdivisiones": "217 Municipios",
+               "fundacion": "16 de abril de 1531",
+               "superficie": "34,290 Km^2",
+               "poblacion": "(2022): 6 millones de habitantes",
+               "gentilicio": "Poblano/na",
+               "lema": "Unidos para progresar"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
+               "textoAltImg": "Mapa de michoacan"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Puebla de Zaragoza",
+               "punto_turistico_descripcion": " La capital del estado, conocida como Puebla de Zaragoza, es famosa por su bien conservado centro histórico, declarado Patrimonio de la Humanidad por la UNESCO. Puedes visitar la Catedral de Puebla, la Capilla del Rosario, el Museo Amparo y disfrutar de la arquitectura colonial de sus calles y plazas.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Cholula",
+               "punto_turistico_descripcion": "Cholula es una ciudad que alberga la Gran Pirámide de Cholula, la pirámide más grande del mundo en términos de volumen, aunque parece una colina cubierta de vegetación. También puedes explorar la Iglesia de Nuestra Señora de los Remedios que se encuentra en la cima de la pirámide.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Tehuacán",
+               "punto_turistico_descripcion": "Tehuacán es conocida por su hermoso Jardín Botánico Helia Bravo Hollis, que alberga una gran colección de plantas de la región. También es famosa por sus tradiciones culinarias y su arquitectura colonial.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Atlixco",
+               "punto_turistico_descripcion": "Atlixco es famosa por sus jardines y flores. El Parque Nacional El Capulin es un lugar para disfrutar de la naturaleza, mientras que el Pueblo Mágico de Atlixco cuenta con un hermoso zócalo y la Iglesia de la Natividad.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Cuautinchán",
+               "punto_turistico_descripcion": "Cuautinchán es un lugar famoso por el Santuario de las Luciérnagas, donde puedes disfrutar del fenómeno de las luciérnagas durante la temporada adecuada. Es una experiencia única en la que miles de luciérnagas iluminan el cielo nocturno.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
       }
 ]
