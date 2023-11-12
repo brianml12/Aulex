@@ -617,5 +617,56 @@
                "punto_turistico_img": "./src/sample-picture-1.png"
             }
          ]
+      },
+      {
+         "abreviacionEstado": "NL",
+         "nombreEstado": "Nuevo León",
+         "portadaEstado": "./src/nuevo-leon/portada-nuevo-leon.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado Libre y Soberano de Nuevo León",
+               "capital": "Monterrey",
+               "idiomas": "Español, Náhuatl y Huasteco",
+               "subdivisiones": "51 Municipios",
+               "fundacion": "5 de julio de 1824",
+               "superficie": "64,924 Km^2",
+               "poblacion": "(2020): 5 784 442 de habitante",
+               "gentilicio": "neoleonés, -a",
+               "lema": "Siempre ascendiendo"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
+               "textoAltImg": "Mapa de michoacan"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Puebla de Zaragoza",
+               "punto_turistico_descripcion": " La capital del estado, conocida como Puebla de Zaragoza, es famosa por su bien conservado centro histórico, declarado Patrimonio de la Humanidad por la UNESCO. Puedes visitar la Catedral de Puebla, la Capilla del Rosario, el Museo Amparo y disfrutar de la arquitectura colonial de sus calles y plazas.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Cholula",
+               "punto_turistico_descripcion": "Cholula es una ciudad que alberga la Gran Pirámide de Cholula, la pirámide más grande del mundo en términos de volumen, aunque parece una colina cubierta de vegetación. También puedes explorar la Iglesia de Nuestra Señora de los Remedios que se encuentra en la cima de la pirámide.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Tehuacán",
+               "punto_turistico_descripcion": "Tehuacán es conocida por su hermoso Jardín Botánico Helia Bravo Hollis, que alberga una gran colección de plantas de la región. También es famosa por sus tradiciones culinarias y su arquitectura colonial.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Atlixco",
+               "punto_turistico_descripcion": "Atlixco es famosa por sus jardines y flores. El Parque Nacional El Capulin es un lugar para disfrutar de la naturaleza, mientras que el Pueblo Mágico de Atlixco cuenta con un hermoso zócalo y la Iglesia de la Natividad.",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Cuautinchán",
+               "punto_turistico_descripcion": "Cuautinchán es un lugar famoso por el Santuario de las Luciérnagas, donde puedes disfrutar del fenómeno de las luciérnagas durante la temporada adecuada. Es una experiencia única en la que miles de luciérnagas iluminan el cielo nocturno.",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
       }
 ]
