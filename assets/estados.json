@@ -630,41 +630,245 @@
                "subdivisiones": "51 Municipios",
                "fundacion": "5 de julio de 1824",
                "superficie": "64,924 Km^2",
-               "poblacion": "(2020): 5 784 442 de habitante",
+               "poblacion": "(2020): 5.7 millones de habitantes",
                "gentilicio": "neoleonés, -a",
                "lema": "Siempre ascendiendo"
             }
          ],
          "mapaEstadoImg": [
             {
-               "srcEstadoImg": "./src/michoacan/lugar-michoacan.png", 
-               "textoAltImg": "Mapa de michoacan"
+               "srcEstadoImg": "./src/nuevo-leon/lugar-nuevo-leon.png", 
+               "textoAltImg": "Mapa de Nuevo León"
             }
          ],
          "puntosTuristicosEstado": [
             {
-               "punto_turistico_nombre": "Puebla de Zaragoza",
-               "punto_turistico_descripcion": " La capital del estado, conocida como Puebla de Zaragoza, es famosa por su bien conservado centro histórico, declarado Patrimonio de la Humanidad por la UNESCO. Puedes visitar la Catedral de Puebla, la Capilla del Rosario, el Museo Amparo y disfrutar de la arquitectura colonial de sus calles y plazas.",
+               "punto_turistico_nombre": "Sample 1",
+               "punto_turistico_descripcion": "lorem",
                "punto_turistico_img": "./src/sample-picture-1.png"
             },
             {
-               "punto_turistico_nombre": "Cholula",
-               "punto_turistico_descripcion": "Cholula es una ciudad que alberga la Gran Pirámide de Cholula, la pirámide más grande del mundo en términos de volumen, aunque parece una colina cubierta de vegetación. También puedes explorar la Iglesia de Nuestra Señora de los Remedios que se encuentra en la cima de la pirámide.",
+               "punto_turistico_nombre": "Sample 2",
+               "punto_turistico_descripcion": "lorem",
                "punto_turistico_img": "./src/sample-picture-2.png"
             },
             {
-               "punto_turistico_nombre": "Tehuacán",
-               "punto_turistico_descripcion": "Tehuacán es conocida por su hermoso Jardín Botánico Helia Bravo Hollis, que alberga una gran colección de plantas de la región. También es famosa por sus tradiciones culinarias y su arquitectura colonial.",
+               "punto_turistico_nombre": "Sample 3",
+               "punto_turistico_descripcion": "lorem",
                "punto_turistico_img": "./src/sample-picture-1.png"
             },
             {
-               "punto_turistico_nombre": "Atlixco",
-               "punto_turistico_descripcion": "Atlixco es famosa por sus jardines y flores. El Parque Nacional El Capulin es un lugar para disfrutar de la naturaleza, mientras que el Pueblo Mágico de Atlixco cuenta con un hermoso zócalo y la Iglesia de la Natividad.",
+               "punto_turistico_nombre": "Sample 4",
+               "punto_turistico_descripcion": "lorem",
                "punto_turistico_img": "./src/sample-picture-2.png"
             },
             {
-               "punto_turistico_nombre": "Cuautinchán",
-               "punto_turistico_descripcion": "Cuautinchán es un lugar famoso por el Santuario de las Luciérnagas, donde puedes disfrutar del fenómeno de las luciérnagas durante la temporada adecuada. Es una experiencia única en la que miles de luciérnagas iluminan el cielo nocturno.",
+               "punto_turistico_nombre": "Sample 5",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "TAMPS",
+         "nombreEstado": "Tamaulipas",
+         "portadaEstado": "./src/tamaulipas/portada-tamaulipas.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado Libre y Soberano de Tamaulipas",
+               "capital": "Ciudad Victoria",
+               "idiomas": "Español, Náhuatl y Huasteco",
+               "subdivisiones": "43 Municipios",
+               "fundacion": "7 de febrero de 1824",
+               "superficie": "80,249 Km^2",
+               "poblacion": "(2020): 3.5 millones de habitantes",
+               "gentilicio": "Tamaulipeco, -ca",
+               "lema": "Siempre con la patria"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/tamaulipas/lugar-tamaulipas.png", 
+               "textoAltImg": "Mapa de Tamaulipas"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Sample 1",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 2",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 3",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 4",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 5",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "JAL",
+         "nombreEstado": "Jalisco",
+         "portadaEstado": "./src/jalisco/portada-jalisco.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado Libre y Soberano de Jalisco",
+               "capital": "Guadalajara",
+               "idiomas": "Español, Huichol, Náhuatl, Purépecha y Mixteco",
+               "subdivisiones": "125 Municipios",
+               "fundacion": "16 de junio de 1823",
+               "superficie": "78,588 Km^2",
+               "poblacion": "(2020): 8.3 millones de habitantes",
+               "gentilicio": "Jalisciense",
+               "lema": "Somos Jalisco, 200 años libres y soberanos"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/jalisco/lugar-jalisco.png", 
+               "textoAltImg": "Mapa de Chihuahua"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Sample 1",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 2",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 3",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 4",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 5",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "CHIH",
+         "nombreEstado": "Chihuahua",
+         "portadaEstado": "./src/chihuahua/portada-chihuahua.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado Libre y Soberano de Chihuahua",
+               "capital": "Chihuahua",
+               "idiomas": "Español, Tarahumara, Guarijío, Lipán, Plódich y Tepehuán",
+               "subdivisiones": "67 Municipios",
+               "fundacion": "6 de julio de 1824",
+               "superficie": "247, 455 Km^2",
+               "poblacion": "(2020): 3.7 millones de habitantes",
+               "gentilicio": "Chihuahuense",
+               "lema": "Valentía, Lealtad y Hospitalidad"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/chihuahua/lugar-chihuahua.png", 
+               "textoAltImg": "Mapa de Chihuahua"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Sample 1",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 2",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 3",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 4",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 5",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            }
+         ]
+      },
+      {
+         "abreviacionEstado": "MOR",
+         "nombreEstado": "Morelos",
+         "portadaEstado": "./src/morelos/portada-morelos.png",
+         "infoBasicaEstado": [
+            {
+               "nombreCompleto": "Estado Libre y Soberano de Chihuahua",
+               "capital": "Cuernavaca",
+               "idiomas": "Español, Náhuatl y Mixteco",
+               "subdivisiones": "36 Municipios",
+               "fundacion": "16 de abril de 1869",
+               "superficie": "4,950 Km^2",
+               "poblacion": "(2020): 1.97 millones de habitantes",
+               "gentilicio": "Morelense",
+               "lema": "Tierra y Libertad"
+            }
+         ],
+         "mapaEstadoImg": [
+            {
+               "srcEstadoImg": "./src/morelos/lugar-morelos.png", 
+               "textoAltImg": "Mapa de Morelos"
+            }
+         ],
+         "puntosTuristicosEstado": [
+            {
+               "punto_turistico_nombre": "Sample 1",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 2",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 3",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-1.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 4",
+               "punto_turistico_descripcion": "lorem",
+               "punto_turistico_img": "./src/sample-picture-2.png"
+            },
+            {
+               "punto_turistico_nombre": "Sample 5",
+               "punto_turistico_descripcion": "lorem",
                "punto_turistico_img": "./src/sample-picture-1.png"
             }
          ]
