@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio de Sesión</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos_busqueda.css">
+    </head>
+    <body>
+        <nav id="menu" class="navbar navbar-expand-lg p-1 sticky-top dark-theme navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./src/logo-v3-aulex.png" alt="" title="Volver a la página de inicio" width="75">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Acerca de nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <img src="src/search.svg" class="searchIcon">
+                        <input class="form-control me-2" type="text" placeholder="Buscar estado" aria-label="Search"
+                            id="search-input" autocomplete="off">
+                    </form>
+                    <div id="results" class="dropdown"></div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="w-100 align-items-center py-3">
+            <h1 class="p-3 fs-1 text-center">¡Bienvenido!</h1>
+            <div class="row w-75 mx-auto mb-2" id="servicios-fila-3">       
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                    <img src="./src/usuario.png" width="100" height="100 ">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1">Usuarios</h3>
+                        <p class="px-4">Administrar usuarios</p>
+                    </div>
+                </div>
+        
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap" data-aos="fade-up">
+                    <img src="./src/mexico.png" width="150" height="100">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1">Estados</h3>
+                        <p class="px-4">Administrar puntos turísticos</p>
+                    </div>
+                </div>   
+            </div>
+        </section>
+
+
+
+        <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap fixed-bottom">
+            <img src="./src/logo-v3-aulex.png" alt="" width="75">
+            <p class="d-flex fs-5 align-items-center justify-content-center px-3 pt-3">© 2023 Copyright: Aulex</p>
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="https://www.instagram.com/" title="¡Paseate por nuestro Instagram!" target="_blank"><i class="bi bi-instagram"></i></a>  
+                <a href="#" title="¡Comunícate con nosotros!" target="_blank"><i class="bi bi-envelope-at"></i></a>
+            </div>
+        </footer>
+        <script src="./js/script_busqueda.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
