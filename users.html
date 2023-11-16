@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Usuarios</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css"/>
+        <link rel="stylesheet" href="css/estilos_busqueda.css">
+    </head>
+    <body>
+        <nav id="menu" class="navbar navbar-expand-lg p-1 sticky-top dark-theme navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./src/logo-v3-aulex.png" alt="" title="Volver a la página de inicio" width="75">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Acerca de nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <img src="src/search.svg" class="searchIcon">
+                        <input class="form-control me-2" type="text" placeholder="Buscar estado" aria-label="Search"
+                            id="search-input" autocomplete="off">
+                    </form>
+                    <div id="results" class="dropdown"></div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container py-4">
+            <h1 class="pt-2 pb-2 fs-1">Registrar Usuario</h1>
+            <form id="frmUsuario" class="row g-3 needs-validation w-50" novalidate>
+                <div class="col-md-12">
+                    <label for="txtUsuario" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="txtUsuario" required min>
+                    <div class="invalid-feedback">
+                        No se permite este campo vacío.
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <label for="txtPassword" class="form-label">Contraseña</label>
+                    <input type="text" class="form-control" id="txtPassword" required>
+                    <div class="invalid-feedback">
+                        No se permite este campo vacío.
+                    </div>
+                </div>
+                <div class="container-fluid mt-4 d-flex">
+                    <button id="btnGuardar" type="submit" class="btn btn-success mx-2">Guardar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container">
+            <h1 class="pt-5 fs-1">Usuarios</b></h1>
+        </div>
+    
+        <div class="container py-2">
+            <table id="equipos" class="display table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>davidson12345</td>
+                        <td><button id="btnEditar" class="btn btn-warning p-2 px-4">Editar</button>
+                        <button id="btnEditar" class="btn btn-danger p-2 px-4">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>AngelZR</td>
+                        <td><button id="btnEditar" class="btn btn-warning p-2 px-4">Editar</button>
+                        <button id="btnEditar" class="btn btn-danger p-2 px-4">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>BrianML</td>
+                        <td><button id="btnEditar" class="btn btn-warning p-2 px-4">Editar</button>
+                        <button id="btnEditar" class="btn btn-danger p-2 px-4">Eliminar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap fixed-bottom">
+            <img src="./src/logo-v3-aulex.png" alt="" width="75">
+            <p class="d-flex fs-5 align-items-center justify-content-center px-3 pt-3">© 2023 Copyright: Aulex</p>
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="https://www.instagram.com/" title="¡Paseate por nuestro Instagram!" target="_blank"><i class="bi bi-instagram"></i></a>  
+                <a href="#" title="¡Comunícate con nosotros!" target="_blank"><i class="bi bi-envelope-at"></i></a>
+            </div>
+        </footer>
+        <script src="./js/script_busqueda.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    </body>
+</html>

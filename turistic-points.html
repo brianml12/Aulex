@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Menú Principal</title>
+        <title>Puntos Turísticos</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -40,27 +40,60 @@
             </div>
         </nav>
 
-        
-        <section class="w-75 py-5">
-            <div class="row w-75 mx-auto mb-2" id="servicios-fila-3">    
-                <h1 class="p-1 fs-1">¡Bienvenido!</h1>   
-                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-                    <img src="./src/usuario.png" width="100" height="100 ">
-                    <div>
-                        <a id="tag" href="" class="fs-2 mt-4 px-4 pb-1">Usuarios</a>
-                        <p class="px-4">Administrar usuarios</p>
+        <div class="container py-4">
+            <h1 class="pt-2 pb-2 fs-1">Registrar Punto Turístico</h1>
+            <form id="frmUsuario" class="row g-3 needs-validation w-50" novalidate>
+                <div class="col-md-12">
+                    <label for="txtUsuario" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="txtUsuario" required min>
+                    <div class="invalid-feedback">
+                        No se permite este campo vacío.
                     </div>
                 </div>
-        
-                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap" data-aos="fade-up">
-                    <img src="./src/mexico.png" width="120" height="85">
-                    <div>
-                        <a id="tag" href="" class="fs-2 mt-4 px-4 pb-1">Estados</a>
-                        <p class="px-4">Administrar puntos turísticos</p>
+                <div class="col-md-12">
+                    <label for="txtPassword" class="form-label">Contraseña</label>
+                    <input type="text" class="form-control" id="txtPassword" required>
+                    <div class="invalid-feedback">
+                        No se permite este campo vacío.
                     </div>
-                </div>   
-            </div>
-        </section>
+                </div>
+                <div class="container-fluid mt-4 d-flex">
+                    <button id="btnGuardar" type="submit" class="btn btn-success mx-2">Guardar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container">
+            <h1 class="pt-5 fs-1">Puntos Turísticos</b></h1>
+        </div>
+    
+        <div class="container py-2">
+            <table id="equipos" class="display table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>davidson12345</td>
+                        <td><button id="btnEditar" class="btn btn-warning p-2 px-4">Editar</button>
+                        <button id="btnEditar" class="btn btn-danger p-2 px-4">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>AngelZR</td>
+                        <td><button id="btnEditar" class="btn btn-warning p-2 px-4">Editar</button>
+                        <button id="btnEditar" class="btn btn-danger p-2 px-4">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>BrianML</td>
+                        <td><button id="btnEditar" class="btn btn-warning p-2 px-4">Editar</button>
+                        <button id="btnEditar" class="btn btn-danger p-2 px-4">Eliminar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
 
 
