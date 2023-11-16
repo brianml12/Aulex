@@ -14,6 +14,7 @@ searchInput.addEventListener("input", function () {
 });
 
 function getResults(query) {
+    debugger;
     // Realiza tu búsqueda aquí y obtén los resultados reales en lugar de las sugerencias simuladas.
     // Por ahora, usaremos resultados simulados.
     const simulatedResults = [
@@ -110,6 +111,7 @@ function displayResults(results) {
 
 function getAbreviacionEstado(estado) {
     // Se crea un arreglo de tupla en el cual se guarda en el estado y su abreviacion
+    debugger;
     let estadosMexico = {
       "Aguascalientes": "AG",
       "Baja California": "BC",
